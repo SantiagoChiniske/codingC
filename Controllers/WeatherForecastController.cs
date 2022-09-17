@@ -12,7 +12,7 @@ public class WeatherForecastController : ControllerBase
 
        return Content(ReadAllText("view/index.html"), "text/html") ;
    }
-   [HttpGet()]
+   [HttpGet("/login")]
    public ActionResult Login(){
        
 
